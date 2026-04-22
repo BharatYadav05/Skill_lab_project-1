@@ -20,10 +20,10 @@ int main()
     gst = (total * 18) / 100;
     final = total + gst;
 
-    printf("Total Amount : %.2f \n", total);
-    printf("GST (18%) : %.2f \n", gst);
-    printf("Final Amount: %.2f \n", final);
-    printf("Size of Total: %u", sizeof(total));
+    printf("Total Amount  : %.2f \n", total);
+    printf("GST (18%)     : %.2f \n", gst);
+    printf("Final Amount  : %.2f \n", final);
+    printf("Size of Total : %zu bytes", sizeof(total));
 
     // printf("The final amount of purchased 3 products including gst is %.2f \n", final);
 
